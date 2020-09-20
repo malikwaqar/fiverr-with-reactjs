@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    align-content: center;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+.header__logo {
+    height: 27px;
+    padding-right: 20px;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: #7b7c80;
+}
+.header__nav > ul {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+}
+.header__nav > ul > li {
+    padding: 0 24px 0 0;
+}
+ul, ol, nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+.header__input {
+    border: 1px solid lightgray;
+    border-right: 0;
+    padding: 8px;
+    background-color: #fff;
+}
+.header__searchButton {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    background-color: #1dbf73;
+}
+.header__right {
+    padding-left: 20px;
+}
+.header__signinBtn {
+    background-color: white;
+    border: none;
+    font-size: large;
+    font-weight: 300;
+    color: #7b7c80;
+    text-align: center;
+    padding-right: 30px;
+    
+}
+.header__joinBtn {
+    
+    background-color: white;
+    border: 1px solid #1dbf73;
+    padding: 5px 25px;
+    font-size: large;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 300;
+    color: #7b7c80;
+}
