@@ -1,0 +1,34 @@
+.gigcard {
+    width: 289px;
+    padding: 16px;
+}
+.gigcard__image {
+    width: 289px;
+    height: 173px;
+}
+.giftcard__main {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.giftcard__info {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.gigcard__sellerDetails {
+    padding-left: 10px;
+}
+.gigcard__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gigcard__gigDetails > p {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.gigcard__footer {
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}

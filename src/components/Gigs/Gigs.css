@@ -1,0 +1,5 @@
+.gigs {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+}
